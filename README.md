@@ -8,18 +8,7 @@ The lab combines the **AWS re:Inforce 2025 Security Lake workshop** with **commu
 
 ## 🏗️ Architecture  
 
-```mermaid
-graph TD
-    A[Collect Security Logs from AWS Services] --> B[Amazon Security Lake (OCSF Format)]
-    B --> C[Query and Analyze Data via Athena / Jupyter Notebooks]
-    C --> D[Detections-as-Code Pipeline (Sigma + CI/CD)]
-    D --> E[Rule Compilation & Version Control in GitHub]
-    E --> F[Deploy Rules to SIEM / SOAR (Splunk, Sentinel, etc.)]
-    F --> G[Attack Simulation via Stratus Red Team]
-    G --> H[Validate Detection Coverage and Generate Reports]
-```
 
-Each component supports a **repeatable and testable detection engineering workflow**.
 
 ## 🔧 Components  
 
@@ -37,7 +26,8 @@ Includes AWS CDK or Terraform templates to provision Security Lake resources.
 Inspired by *“From Soup to Nuts: Building a Detection-as-Code Pipeline”*  
 - **Version-controlled Sigma rules** stored in `/detections/`  
 - **CI/CD pipeline** automatically tests, compiles, and validates rules  
-- Ensures **consistent quality**, **unit tests**, and **artifact promotion** 
+- Ensures **consistent quality**, **unit tests**, and **artifact promotion**  
+
 📂 Folder: `detections/`  
 Includes YAML Sigma rules + CI pipeline for validation and build automation.
 
