@@ -1,3 +1,4 @@
+![GitHub stars](https://img.shields.io/github/stars/xaviermotley/open-security-data-lake-detections-as-code) ![GitHub forks](https://img.shields.io/github/forks/xaviermotley/open-security-data-lake-detections-as-code) ![Last commit](https://img.shields.io/github/last-commit/xaviermotley/open-security-data-lake-detections-as-code) ![License](https://img.shields.io/github/license/xaviermotley/open-security-data-lake-detections-as-code) ![Open issues](https://img.shields.io/github/issues/xaviermotley/open-security-data-lake-detections-as-code)
 # 🧠 Open Security Data Lake + Detections-as-Code  
 **OCSF + Sigma + Attack Simulation on AWS**
 
